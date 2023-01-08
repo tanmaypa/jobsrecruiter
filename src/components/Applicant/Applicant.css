@@ -1,0 +1,29 @@
+.card_ {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 150px;
+  overflow: auto;
+}
+
+.applicant {
+  padding: 1rem 1rem;
+}
+
+.p_applicant {
+  margin-bottom: 0px;
+  margin: 0px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.my-3_applicant {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}

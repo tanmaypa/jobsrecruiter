@@ -1,0 +1,112 @@
+.pagebtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: small;
+  margin-top: 3px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.myjobscontainer {
+  padding: 30px 120px 30px 120px;
+  margin-top: -20px;
+}
+
+.myjob {
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #13274f 0%,
+    #13274f 20%,
+    #afdbf5 20%,
+    #afdbf5 100%
+  );
+}
+.leftbtn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.rightbtn {
+  font-size: 1.2rem;
+
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.alert-fixed {
+  position: fixed;
+  top: 70px;
+  width: 300px;
+  right: 30px;
+  z-index: 9999;
+  border-radius: 6px;
+  height: 95px;
+  background-color: white;
+  border: none;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+button:active {
+  border: none;
+}
+
+.btn-close {
+  border-radius: 6px;
+}
+
+.btn-close.active.focus,
+.btn-close.active:focus,
+.btn-close.focus,
+.btn-close:active.focus,
+.btn-close:active:focus,
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: white;
+}
+
+.bi-house-door-fill::before {
+  content: "\f422";
+  margin-top: 10px;
+}
+
+.nojobs {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.nojobscontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding: 5px 18px 5px 18px;
+  margin: auto;
+}
+
+.fa-edit:before {
+  margin-left: 12px;
+}

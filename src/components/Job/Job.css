@@ -1,0 +1,69 @@
+.btn-sm {
+  background-color: #1da1f2;
+  color: white;
+  margin-left: auto;
+}
+
+.card-title {
+  color: black;
+}
+
+.modal-body_applcant {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0rem;
+  background-color: lavender;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.modal-content_applicant {
+  height: 100%;
+  right: 4rem;
+  min-width: 650px;
+}
+
+.modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+
+  min-width: 39rem;
+}
+
+.container_applicant {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ptotal {
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+.modal-dialog-scrollable .modal-body {
+  overflow-y: auto;
+  background-color: #cdcdcd;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  height: 85%;
+  max-height: calc(100% - 120px);
+}
+
+.modal-dialog-scrollable .modal-content {
+  border-radius: 12px;
+  height: 85%;
+}
+
+.noapplicants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.bi-file-earmark-person {
+  font-size: 5rem;
+  color: gray;
+}

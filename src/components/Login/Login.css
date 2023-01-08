@@ -1,0 +1,65 @@
+.mylogincontainer {
+  padding: 30px 120px 30px 120px;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden; 
+  background: linear-gradient(
+    to bottom,
+    #13274f 0%,
+    #13274f 35%,
+    #afdbf5 35%,
+    #afdbf5 100%
+  );
+}
+
+.mylogin {
+  height: 320px;
+  width: 400px;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 15px 20px 15px;
+}
+.loginbtn {
+  margin: auto;
+  width: 150px;
+  background-color: #1da1f2;
+  padding: 6px 35px 6px 35px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid rgb(124, 121, 121);
+}
+
+input:focus {
+  outline: 1px solid #1da1f2;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.error {
+  visibility: hidden;
+  color: red;
+}
+.errorvisible {
+  visibility: visible;
+  color: red;
+}
+.iserror {
+  border: 1px solid red;
+}
