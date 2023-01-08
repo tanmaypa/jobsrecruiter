@@ -176,12 +176,11 @@ const Jobs = () => {
               <i
                 style={{
                   fontSize: "4rem",
-                  marginBottom: "10px",
                   color: "gray",
                 }}
-                className="far fa-edit"
+                className="bi bi-pencil-square"
               ></i>
-              <p>Your posted jobs will show here!</p>
+              <p style={{ marginBottom: '1.5rem'}}>Your posted jobs will show here!</p>
               <button className="btn btn-sm my">Post a job</button>
             </div>
           </div>
